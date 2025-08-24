@@ -1,4 +1,4 @@
-import GridServices from './grids/gridServices';
+import GridServices from './grids/GridServices';
 
 const Servicos = () => {
   return (
