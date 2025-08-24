@@ -8,7 +8,7 @@ const Footer = () => {
 
   return (
 
-   <section className="flexn w-full justify-center items-center bg-blue-600 p-5">
+   <section className="flexn w-full justify-center items-center bg-blue-700 p-5">
 
      <FooterCopyright className="text-white font-semibold" href="#" by="JC SOFTWARE" year={ano} />
       

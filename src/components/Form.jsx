@@ -99,7 +99,7 @@ const Form = () => {
                 </div>
                 <Textarea id="message" value={formData.message} placeholder="Descreva a sua ideia ou projeto" required rows={4} onChange={handleChange} />
             </div>
-            <Button className='w-full mt-4'   type='submit' disabled={isLoading}>
+            <Button className='w-full mt-4' color='blue'   type='submit' disabled={isLoading}>
               {isLoading ? <Spinner size='sm'/>: 'ENVIAR'}
             </Button>
             
