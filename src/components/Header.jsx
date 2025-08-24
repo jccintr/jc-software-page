@@ -1,4 +1,3 @@
-import React from 'react'
 import { Navbar } from "flowbite-react";
 import { navbarCustomTheme } from '../theme/NavbarTheme';
 import logo from '../assets/logo-600x120.png';
@@ -10,7 +9,7 @@ const Header = () => {
       className='w-full py-4 border-b-2 md:px-20'
       theme={navbarCustomTheme}>
       <Navbar.Brand  href="https://jc-software.com">
-         <img src={logo} alt='logo' className='w-52 md:w-80' />
+         <img src={logo} alt='logo' className='w-52 sm:w-60 md:w-80' />
       </Navbar.Brand>
       <Navbar.Toggle />
       <Navbar.Collapse>
