@@ -35,7 +35,7 @@ const testimonials = [
     name: 'Felipe Almeida',
     company: 'Innovate Systems',
     image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&h=150&q=80',
-    testimonial: 'O aplicativo móvel que desenvolveram é incrivelmente funcional e visualmente impressionante. Recomendo fortemente!',
+    testimonial: 'O aplicativo móvel que desenvolveram é incrivelmente funcional e visualmentee impressionante. Recomendo fortemente!',
   },
 ];
 
