@@ -1,5 +1,5 @@
-import React,{useState} from 'react'
-import { Button, Textarea, Label, TextInput,Spinner,Alert,Toast  } from "flowbite-react";
+import {useState} from 'react'
+import { Button, Textarea, Label, TextInput,Spinner } from "flowbite-react";
 import { ToastContainer, toast } from 'react-toastify';
 import api from '../api/api.js'
 
@@ -67,10 +67,10 @@ const Form = () => {
 
   return (
     <section id="contato" className='bg-gray-200 py-8 flex flex-col w-full items-center justify-center px-5 gap-2   md:items-center'>
-        <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-4">
+        <h2 className="text-2xl md:text-3xl font-bold text-center text-gray-800 mb-4">
           Fale Conosco
         </h2>
-        <h3 className="text-base md:text-xl  text-center text-gray-600 mb-12">
+        <h3 className="text-base md:text-xl  text-center text-gray-600 mb-4">
           Solicite seu orçamento sem compromisso e transforme sua ideia em realidade
         </h3>
         
